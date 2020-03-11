@@ -1,7 +1,8 @@
 const pi = 3.14;
 let numWaarde;
 let result;
-
+var d = Date();
+document.getElementById("date").innerText = d;
 function calculate() {
   numWaarde = document.getElementById("num").value;
   result = pi * numWaarde;
